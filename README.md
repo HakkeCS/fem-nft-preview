@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screen Shot](/fem-nft-preview/screenshot.PNG)
+![Screen Shot](./screenshot.PNG)
 
 ### Links
 

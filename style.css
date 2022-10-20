@@ -1,0 +1,129 @@
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    box-sizing: border-box;
+    font-family: Outfit;
+    padding: 50px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    height: 596px;
+    width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;   
+    padding: 1.2rem;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.card-header {
+    color: white;
+}
+
+.image-container {
+    width: 302px;
+}
+
+.main-image {
+    height: 302px;
+    max-width: 302px;
+    border-radius: 10px;
+}
+
+.price-time,
+.profile-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.time-text,
+.price-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    font-weight: 300;
+}
+
+.time-text,
+.card-text {
+    color: hsl(215, 51%, 70%);
+}
+
+.price-text {
+    color: hsl(178, 100%, 50%);
+}
+
+.icon {
+    height: 16px;
+    width: auto;
+}
+
+hr {
+    width: 302px;
+    border-color: hsl(215, 32%, 27%);
+    margin-bottom: 0px;
+}
+
+.profile-bottom {
+    margin-top: 5px;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.image-container {
+    display: flex;
+    align-self: center;
+}
+
+.avatar {
+    height: 33px;
+    width: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.hover:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hover-image {
+    height: 302px;
+    width: 302px;
+    background-color: hsl(178, 100%, 50%);
+    display: flex;
+    position: absolute;
+    border-radius: 10px;
+    opacity: 0%;
+    justify-content: center;
+    align-items: center;
+}
+
+.eye-icon {
+    height: 48px;
+    width: 48px;
+}
+
+.hover-image:hover {
+    background-color: hsla(178, 100%, 50%, 0.4);
+    opacity: 100%;
+    display: flex;
+    transition: 0.3s;
+    cursor: pointer;
+}
